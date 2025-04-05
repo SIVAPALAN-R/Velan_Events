@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Velan Events</title>
+        <link rel="icon" href="./assets/icon.jpeg" type="image/jpeg" />
+
+      
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+        <link rel="stylesheet" href="style.css" />
+      </head>
+      
+<body>
+  <header>
+    <nav>
+      <div class="logo">Velan Events</div>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <ul class="menu" id="sidemenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#booking">Booking</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Welcome to Velan Events</h1>
+    <!-- <p>We create magical moments for every occasion.</p> -->
+    <h2>டெக்கரேஷன் மற்றும்  சாமியானா பந்தல்</h2>
+    <h5>(நம்பி வாங்க..! சந்தோஷமாக போங்க..!)</h5>
+    <marquee style="color: rgb(4, 241, 24); font-family: 'Times New Roman', Times, serif;"><b> எங்களிடம் திருமணம் மற்றும் சுப நிகழ்ச்சிகளுக்கு பந்தல் மற்றும் டெகரேஷன் செய்து தரப்படும். திருமண மாலை மற்றும் ஒரிஜினல் பிளவர் டெகரேஷன் செய்து தரப்படும்.!<b></b></marquee>
+
+  </section>
+  
+
+ <!-- About Section -->
+<section id="about">
+    <div class="about-box">
+      <h2>About Us</h2>
+      <p>
+        Veln Events specializes in creating unforgettable moments through professional event management and decoration services tailored to your needs.
+      </p>
+    </div>
+  </section>
+  
+
+  <!-- Services -->
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <img src="./assets/home 1.jpeg" alt="Service 1">
+        <p>Wedding Decoration</p>
+      </div>
+      <div class="service-card">
+        <img src="./assets/decaration.jpeg" alt="Service 2">
+        <p>Engagement</p>
+      </div>
+      <div class="service-card">
+        <img src="./assets/birthday.webp" alt="Service 2">
+        <p>Birthday Function</p>
+      </div>
+      <div class="service-card">
+        <img src="./assets/corporate.avif" alt="Service 2">
+        <p>Corporate Events</p>
+      </div>
+      <div class="service-card">
+        <img src="./assets/paper blaster.jpeg" alt="Service 3">
+        <p>Paper Blaster</p>
+      </div>
+      <div class="service-card">
+        <img src="./assets/samiyana panthal.jpeg" alt="Service 3">
+        <p>Samiyana panthal</p>
+      </div>
+      <div class="service-card">
+        <img src="./assets/maalai.jpeg" alt="Service 4">
+        <p>Kalyana Maalai</p>
+      </div>
+      <div class="service-card">
+        <img src="./assets/chair.jpeg" alt="Service 4">
+        <p>Chair</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Booking Form -->
+  <section id="booking">
+    <h2>Book Our Services</h2>
+    <form name="submit-to-google-sheet">
+      <input type="text" name="name" placeholder="Name" required />
+      <input type="tel" name="mobile" placeholder="Mobile Number" required />
+      <input type="text" name="address" placeholder="Address" required />
+
+      <select name="eventType" required>
+        <option value="" disabled selected>Select Event Type</option>
+        <option value="Wedding">Wedding</option>
+        <option value="Birthday">Birthday</option>
+        <option value="Corporate Event">Corporate Event</option>
+        <option value="Stage Decoration">Stage Decoration</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <label for="booking-date">Select a Date:</label>
+      <input type="date" id="booking-date" name="date" required />
+      
+      <p id="selected-date"></p> <!-- This will show the selected date -->
+      
+      <button type="submit">Book Now</button>
+      <span id="msg"></span>
+    </form>
+  </section>
+
+ <!-- Contact Section -->
+<section id="contact">
+    <div class="contact-box">
+      <h2>Contact Us</h2>
+      <p>You can reach out to us for any event  related inquiries!</p>
+      <p>
+        <strong><i class="fas fa-phone-alt"></i>:</strong>
+        <a href="tel:9344255217">9344255217</a> 
+        <a href="https://wa.me/919344255217" target="_blank">
+          <i class="fab fa-whatsapp" style="color: #25D366;"> : 9344255217</i> 
+        </a>
+      </p>
+      
+      
+
+      <p><strong><i class="fas fa-map-marker-alt"></i> Location:</strong> R.S.Mangalam, Ramanathapuram</p>
+      
+      <div class="socials">
+        
+        <a href="https://www.instagram.com/velan_events_rsm?igsh=ZGlqazI4cmMzazRpm" target="_blank"><i class="fab fa-instagram"></i> </a>
+        <a href="https://youtube.com/@velan_events_rsm?si=_u4Vf-TnyCYX_GOA" target="_blank"><i class="fab fa-youtube"></i> </a>
+      </div>
+
+      
+    </div>
+    
+  </section>
+  
+
+  <footer>
+    <p>&copy; 2025 Velan Events <br> Developed by Siva Regunath</p>
+    <div class="socials">
+
+        <a href="https://www.instagram.com/siva_regunath?igsh=MTcxajBpN2J4NXFsdw==" target="_blank" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+
+      <a href="https://www.facebook.com/share/1Xn9iVatf1/" target="_blank" title="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://x.com/SivaRegunath?s=08" target="_blank" title="X (Twitter)">
+        <i class="fab fa-x-twitter"></i>
+      </a>
+      <a href="http://www.linkedin.com/in/sivapalanr" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+
+      <a href="https://github.com/SIVAPALAN-R" target="_blank" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+     
+     
+    </div>
+  </footer>
+  
+  
+
+  <script src="script.js"></script>
+  <!-- <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbygj7zzI3ZFFJexSDxkuSqoUtrN6eDGh4vJICcx7ubNoBRAC05gGlFU9avQL4Evw0_R/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script> -->
+</body>
+</html>
